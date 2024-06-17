@@ -1,0 +1,23 @@
+.heroList {
+    height: 300px;
+}
+
+ 
+
+.heroCard {
+    display: flex;
+    height: 250px;
+    align-items: center;
+  }
+  
+  .heroCard .col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Opcional, si quieres centrar la imagen horizontalmente también */
+  }
+
+.MarvelComic{
+  background: linear-gradient(135deg, #ed1d24, #fbb03b, #ffffff, #1f93e3, #ec1c24);
+        background-size: 500% 500%;
+        animation: gradientBG 10s ease infinite;
+}

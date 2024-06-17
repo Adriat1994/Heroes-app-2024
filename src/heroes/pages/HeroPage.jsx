@@ -27,18 +27,18 @@ export const HeroPage = () => {
         <h3>{hero.superhero}</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item"><b>Alter ego:</b> {hero.alter_ego}</li>
-          <li className="list-group-item"><b>Publisher:</b> {hero.publisher}</li>
-          <li className="list-group-item"><b>First appearance:</b> {hero.first_appearance}</li>
+          <li className="list-group-item"><b>Publicado por:</b> {hero.publisher}</li>
+          <li className="list-group-item"><b>Primera aparición:</b> {hero.first_appearance}</li>
         </ul>
 
-        <h5 className="mt-3">Characters</h5>
+        <h5 className="mt-3">Personajes</h5>
         <p>{hero.characters}</p>
 
         <button 
           className="btn btn-outline-primary"
           onClick={onNavigateBack}
         >
-        Back
+        Volver
         </button>
 
       </div>
